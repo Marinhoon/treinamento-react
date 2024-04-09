@@ -17,7 +17,7 @@ export function Post() {
           Publicado há 1h
         </time>
       </header>
-      
+
       <div className={styles.content}>
         <p>
           Casado, pai de 2 filhas (03 e 01 anos), 33 anos, residente em
@@ -29,11 +29,19 @@ export function Post() {
           férias e com muito vigor. Técnico reconhecido como cordial, eficaz e
           atencioso pelos seus clientes.{" "}
         </p>
-        <a href="#">
+        <a href="#">71 99283-4903
           <WhatsappLogo size={20} />
-          71 99283-4903
         </a>
       </div>
+
+      <form className={styles.commentForm}>
+      <strong>Deixe seu Feedback</strong>  
+      <textarea 
+          placeholder="Deixe um comentário"
+      />
+      <button type="submit">Comentar</button>
+      </form>
+
     </article>
   );
 }
