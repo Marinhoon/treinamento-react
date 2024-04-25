@@ -29,19 +29,19 @@ export function Post() {
           férias e com muito vigor. Técnico reconhecido como cordial, eficaz e
           atencioso pelos seus clientes.{" "}
         </p>
-        <a href="#">71 99283-4903
+        <a href="#">
+          71 99283-4903
           <WhatsappLogo size={20} />
         </a>
       </div>
 
       <form className={styles.commentForm}>
-      <strong>Deixe seu Feedback</strong>  
-      <textarea 
-          placeholder="Deixe um comentário"
-      />
-      <button type="submit">Comentar</button>
+        <strong>Deixe seu Feedback</strong>
+        <textarea placeholder="Deixe um comentário" />
+        <footer>
+          <button type="submit">Publicar</button>
+        </footer>
       </form>
-
     </article>
   );
 }
